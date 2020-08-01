@@ -6,13 +6,37 @@
 }
 
 .infected {
-  border-bottom: 10px solid rgba(0, 0, 255, 0.5);
+  border-bottom: 10px solid rgb(1, 153, 255);
+  background: linear-gradient(to right, #00c6ff, #90c2ff);
+  box-shadow: 0 2px 5px #ccc;
+  cursor: pointer;
 }
 
-.recovered{
-  border-bottom: 10px solid rgba(0, 255, 0, 0.5);
+.infected:hover {
+  background: linear-gradient(to right, #6b6b6b, #d4d4d4);
+  border-bottom: 10px solid rgb(97, 97, 97);
 }
 
-.deaths{
-  border-bottom: 10px solid rgba(255, 0, 0, 0.5);
+.recovered {
+  border-bottom: 10px solid rgb(1, 189, 1);
+  background: linear-gradient(to right, #a8ff78, #78ffd6);
+  box-shadow: 0 2px 5px #ccc;
+  cursor: pointer;
+}
+
+.recovered:hover {
+  background: linear-gradient(to right, #6b6b6b, #d4d4d4);
+  border-bottom: 10px solid rgb(97, 97, 97);
+}
+
+.deaths {
+  border-bottom: 10px solid rgb(255, 0, 0);
+  background: linear-gradient(to right, #ff577e, #ffa291);
+  box-shadow: 0 2px 10px #ccc;
+  cursor: pointer;
+}
+
+.deaths:hover {
+  background: linear-gradient(to right, #6b6b6b, #d4d4d4);
+  border-bottom: 10px solid rgb(97, 97, 97);
 }
