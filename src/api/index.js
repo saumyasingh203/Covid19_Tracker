@@ -1,4 +1,5 @@
 import axios from 'axios';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const url = 'https://covid19.mathdro.id/api';
 

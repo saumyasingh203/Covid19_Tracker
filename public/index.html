@@ -3,7 +3,23 @@
 
 <head>
   <meta charset="utf-8" />
-  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+  <!--
+        manifest.json provides metadata used when your web app is added to the
+        homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
+      -->
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+  <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+  <!--
+        Notice the use of %PUBLIC_URL% in the tags above.
+        It will be replaced with the URL of the `public` folder during the build.
+        Only files inside the `public` folder can be referenced from the HTML.
+        Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+        work correctly both with client-side routing and a non-root public URL.
+        Learn how to configure a non-root public URL by running `npm run build`.
+      -->
+  
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+    integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#000000" />
   <meta name="description" content="Corona Virus Tracker" />
@@ -12,6 +28,77 @@
 
 <body>
   <div id="root"></div>
+
+  <div class="container-fluid  pt-5 pb-5" id="sympid">
+    <div class="section_header text-center mb-5 mt-4">
+      <h1 class="">Coronavirus symptoms </h1>
+    </div>
+  
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-12 mt-5 ">
+          <figure class="text-center">
+            <img src="https://media.giphy.com/media/EEbfSepr1xxra/giphy.gif" class="img-fluid" width="120" height="120">
+            <figcaption> cough </figcaption>
+          </figure>
+        </div>
+  
+        <div class="col-lg-4 col-md-4 col-12 mt-5 ">
+          <figure class="text-center">
+            <img style="border:3px solid black;" src="https://media.giphy.com/media/35OVpDErTyqowfJMXm/giphy.gif"
+              class="img-fluid" width="120" height="120">
+            <figcaption> runny nose </figcaption>
+          </figure>
+        </div>
+  
+        <div class="col-lg-4 col-md-4 col-12 mt-5 ">
+          <figure class="text-center">
+            <img src="images/fever.png" class="img-fluid" width="120" height="120">
+            <figcaption> fever </figcaption>
+          </figure>
+        </div>
+  
+        <div class="col-lg-4 col-md-4 col-12 mt-5 ">
+          <figure class="text-center">
+            <img src="images/sick.png" class="img-fluid" width="120" height="120">
+            <figcaption> cold </figcaption>
+          </figure>
+        </div>
+  
+        <div class="col-lg-4 col-md-4 col-12 mt-5 ">
+          <figure class="text-center">
+            <img src="images/weak.png" class="img-fluid" width="120" height="120">
+            <figcaption> tiredness </figcaption>
+          </figure>
+        </div>
+  
+        <div class="col-lg-4 col-md-4 col-12 mt-5 ">
+          <figure class="text-center">
+            <img src="images/breath.png" class="img-fluid" width="120" height="120">
+            <figcaption> difficulty breathing (severe cases) </figcaption>
+          </figure>
+        </div>
+        <br>
+        <p style="border: 5px solid black;">
+  
+          <em>WHO</em> is more Susceptible to this Virus?
+          <br>
+          <br> Most vulnerable are the <em> elderly </em>, as well as people with <em>cardiovascular disease, diabetes,
+            chronic respiratory illness, high blood pressure</em> and <em>cancer</em>, according to an article in <a
+            href="https://www.the-scientist.com/news-opinion/why-some-covid-19-cases-are-worse-than-others-67160">
+            <strong>TheScientist</strong> </a> </p>
+        </p>
+      </div>
+    </div>
+  
+  </div>
+
+  <div style="width: 100%;height: 100px;margin-top: 80px;font-family: 'Courier New', Courier, monospace;
+  font-size: 2em; text-align: center;color: rgb(122, 193, 255);">Developed By 
+  <span style="color: rgb(159, 56, 255); font-weight: bolder;">SAUMYA SINGH</span><br>
+  <a href="https://github.com/saumyasingh203"><span style="color: rgb(191, 0, 194);font-size:22px;">Link to my Github Profile</span></a>
+  </div>
+  
 </body>
 
 </html>
