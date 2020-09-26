@@ -1,0 +1,218 @@
+video {
+  max-width: 100%;
+  height: auto;
+  margin-left: 200px;
+}
+
+.myBtn2 {
+  box-shadow: inset -9px 0px 0px 0px #dcecfb;
+  background: linear-gradient(to bottom, #bddbfa 5%, #80b5ea 100%);
+  background-color: #bddbfa;
+  border-radius: 9px;
+  border: 1px solid #84bbf3;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  font-style: italic;
+  padding: 5px 15px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #528ecc;
+}
+
+.myBtn2:hover {
+  background: linear-gradient(to bottom, #80b5ea 5%, #bddbfa 100%);
+  background-color: #80b5ea;
+}
+
+.myBtn2:active {
+  position: relative;
+  top: 1px;
+}
+
+
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 30px; /* Place the button at the bottom of the page */
+  right: 40px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #00A8FF; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 10px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+}
+
+#myBtn:hover {
+  background:  #606060 ; /* Add a dark-grey background on hover */
+}
+
+
+.linkbox.bg {
+  background: #f4f8ff;
+  border: none;
+  padding: 18px;
+  text-align: center;
+}
+
+.no-border {
+  border: 0;
+}
+
+a.linkbox {
+  display: block;
+  text-align: center;
+}
+
+.linkbox {
+  margin: 0;
+  box-sizing: border-box;
+  display: block;
+  color: #111;
+  overflow: hidden;
+  margin-bottom: 3.7%;
+  align-items: center;
+  background: #fff;
+}
+
+.center {
+  text-align: justify;
+}
+
+em {
+  color: red;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Muli', sans-serif;
+}
+
+.row {
+  margin: 0 !important;
+}
+
+.nav_style {
+  background-color: #a29bfe !important;
+}
+
+.nav_style a {
+  color: white;
+}
+
+.main_header {
+  height: 450px;
+  /*background-color: green; */
+  /*box-shadow: 0 8px 6px -6px black;*/
+}
+
+.rightside h1 {
+  font-size: 3rem;
+}
+
+.eksath_anime img {
+  animation: heartbeat 5s linear infinite
+}
+
+@keyframes heartbeat {
+  0% {
+    transform: scale(.75);
+  }
+
+  20% {
+    transform: scale(1);
+  }
+
+  40% {
+    transform: scale(.75);
+  }
+
+  60% {
+    transform: scale(1);
+  }
+
+  80% {
+    transform: scale(.75);
+  }
+
+  100% {
+    transform: scale(.75);
+  }
+}
+
+.corona_anime img {
+  animation: coranaround 3s linear infinite
+}
+
+@keyframes coranaround {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.corono_update {
+  margin: 0 0 30px 0;
+  /*background-color: #fab1a0;*/
+}
+
+.corono_update h3 {
+  color: #ff7675;
+}
+
+.corono_update h1 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.sub_section {
+  background-color: #fbfafd;
+  /*padding: 50px 0;*/
+}
+
+.footer_style {
+  background-color: #a29bfe !important;
+}
+
+.footer_style p {
+  margin-bottom: 0 !important;
+}
+
+@media(max-width: 780px) {
+  .main_header {
+    height: 700px;
+    text-align: center;
+  }
+
+  .main_header h1 {
+    text-align: center;
+    padding: 0;
+    width: 100%;
+    font-size: 30px;
+  }
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: pink;
+  color: white;
+  text-align: center;
+}
