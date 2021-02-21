@@ -2,6 +2,10 @@
 
 This is a live Covid Tracking Website built using React.js. The website displays the option to check the current number of New Cases, Recoveries, and Deaths.
 
+<img src="public/images/ss1.png"></img>
+<img src="public/images/ss2.png"></img>
+<img src="public/images/ss3.png"></img>
+<img src="public/images/ss4.png"></img>
 
 
 API used: https://covid19.mathdro.id/api
